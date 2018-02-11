@@ -1,0 +1,22 @@
+.section {
+	width: 100%;
+	background: #67b26f;
+	background: linear-gradient(to left, #4ca2cd, #67b26f);
+}
+
+.section:nth-child(2n) {
+	background: #3494e6;
+	background: linear-gradient(to left, #ec6ead, #3494e6);
+}
+
+.section__content {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 100px 20px;
+}
+
+@media screen and (max-width: 480px) {
+	.section__content {
+		padding: 100px 10px;
+	}
+}

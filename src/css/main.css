@@ -1,0 +1,28 @@
+html {
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*::selection {
+	color: #fff;
+	background: rgba(180, 180, 180, 0.3);
+}
+
+.App {
+	position: relative;
+	font-family: Titillium Web;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 860px) {
+	html {
+		font-size: 14px;
+	}
+}
